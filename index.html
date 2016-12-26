@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="apple-itunes-app" content="app-id=1067564880" />
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+		<meta name="HandheldFriendly" content="true">
+		<meta content="telephone=no" name="format-detection" />
+		<meta content="email=no" name="format-detection" />
+		<title>LEO'S API</title>
+		<script src="jquery-1.8.3.min.js"></script>
+		<link href="animate.css" rel="stylesheet">
+		
+		<style>
+		body{
+			font-family: "微软雅黑";
+		}
+			.body{
+				width: 1200px;
+				margin:0 auto;
+			}
+			.you{
+				text-align: center;
+				font-size: 26px;
+			}
+			.go{
+				line-height: 44px;
+	   			padding: 5px 20px;
+	  			border: 1px solid #aaa;
+	  			cursor: pointer;
+	 			background-color: #eee;
+	   			transform:rotateX(0deg);
+
+				-webkit-transition-property: left, top, background, -webkit-transform; 
+				-webkit-transition-duration: 3s, 3s, 0.5s, 0.5s;
+				-webkit-transition-timing-function: ease-out, ease-in, linear, ease-in-out;
+				-webkit-transition-delay: 0, 0, 0, 1s;
+			}
+			.go img{
+				position: relative;
+	    		top: 10px;
+			}
+			a{
+				text-decoration: none;
+	    		color: #777;
+			}
+			.list{
+				margin-top: 20px;
+			}
+			.go:hover{
+				background: #fefefe;
+
+				-webkit-transform: rotateX(360deg);
+			}
+			.honey{
+				margin: 85px auto;
+	    		width: 200px;
+	    		text-align: center;
+				line-height: 40px;
+				cursor: pointer;
+				transform:rotateZ(0deg);
+
+				/*-webkit-transition-property: left, top, background, -webkit-transform; */
+				-webkit-transition-duration: 2s, 2s, 1s, 1s;
+				-webkit-transition-timing-function: ease-out, ease-in, linear, ease-in-out;
+				-webkit-transition-delay: 0, 0, 0, 1s;
+			}
+			.honey:hover{
+				-webkit-transform: rotateZ(360deg);
+			}
+			.footer{
+	    		text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="body">
+			<div class="you"><img src="nb.gif" alt=""></div>
+			<div class="you">原来是 Leo 大大的 API！</div >
+			
+			<br/>
+			<br/>
+
+			<div class="go" onclick="window.open('http://api.leodev.me:3000')"><span style="color: #ff3100">🔥</span> 前往 <a href="http://api.leodev.me:3000" target="_blank">Git Leo</a>（beta）（http://api.leodev.me:3000）<img src="gogs-lg.png" width="30" alt=""></div>
+			
+			<p>你不会是想呆在这里吧？</p>
+			<p>让我猜猜 ~</p>
+
+			<div class="go list" onclick="window.open('http://leodev.me')">🍭 你是想访问 Leo 大大的 <a href="http://leodev.me" target="_blank">博客</a> （http://LeoDev.me）</div>
+			<div class="go list" onclick="window.open('http://weibo.com/coderleo')">🎈 或者是想关注 Leo 大大的 <a href="http://weibo.com/coderleo" target="_blank">微博</a> （@LeoDev）</div>
+			<div class="go list" onclick="window.open('https://github.com/iTofu')">🎄 还是想访问 Leo 大大的 <a href="https://github.com/iTofu" target="_blank">GitHub</a> （https://github.com/iTofu）</div>
+			<div class="honey">一切随你 honey :)</div>
+			
+			<div class="footer">Copyright © <a href="http://LeoDev.me" target="_blank">Leo</a> | Design <a href="http://iamyunfei.com" target="_blank">Maniac</a></div>
+		</div>
+	</body>
+</html>
